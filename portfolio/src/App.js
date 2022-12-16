@@ -39,6 +39,7 @@ class App extends Component {
         background: {
           color: {
             value: "#ffffff",
+            height:'5vh',
           },
         },
         fpsLimit: 120,
@@ -132,7 +133,7 @@ class App extends Component {
       
       
 
-      <div id = "background">
+      
       
       
       <section id="about">
@@ -148,7 +149,7 @@ class App extends Component {
         </div>
       </section>
       
-      </div>
+     
 
       <section id="contact">
         <div className="container">

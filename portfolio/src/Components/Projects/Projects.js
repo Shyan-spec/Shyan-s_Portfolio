@@ -2,6 +2,7 @@ import React ,{Component} from 'react';
 import './Projects.scss';
 import CalcPic from './CalcPic.png';
 import DailyVoice from './DailyVoice.png'
+import QuoteGen from './QuoteGen.png'
 
 class Projects extends Component {
     render() {
@@ -51,8 +52,8 @@ class Projects extends Component {
                             <h1 className="title">Project 2: <br/> The Daily Voice</h1>
                             <div className="desAndbuttonWrap">
                             <span className="description">A Public Forum Simulator. <br/> Login and Post whatever is on your mind for everyone to read!
-                                <br/> Utilizes JavaScript, HTML and CSS Languages for the Frontend, and MySQL for the database.  </span>
-                            <button className="live">Now publishing...</button>
+                                <br/> A fullStack application that utilizes JavaScript, HTML and CSS Languages for the Frontend, and MySQL for the database.  </span>
+                            <button className="liveDV">Now publishing...</button>
                             </div>
 
                         </div>
@@ -67,7 +68,26 @@ class Projects extends Component {
                         
                         <div className="textbox mar">
                             
-                            <h1 className="title">Project 3</h1>
+                            <h1 className="title">Project 3: <br/> Random Quote Generator</h1>
+                            <div className="desAndbuttonWrap">
+                            <span className="description">A Random Quote Generator. <br/> Receive a meaningful quote and share it on your LinkedIn profile!
+                                <br/> Utilizes JavaScript, HTML and CSS Languages for the Frontend, as well as an API that fetches the generated quotes.  </span>
+                                
+                            <a href='https://shyan-spec.github.io/quoteGenerator/' className="live">See Live!</a>
+                            </div>
+
+                        </div>
+
+                    
+                    <div className="box1 mar">
+                    <img alt="Login DailyVoice" className="DV-img" src={QuoteGen}/>
+                        </div>
+
+                           {/* Project 4 */}
+                        
+                           <div className="textbox mar">
+                            
+                            <h1 className="title">Project 4</h1>
                             <div className="desAndbuttonWrap">
                             <span className="description">Project Under Construction.</span>
                             <button className="live">Coming Soon...</button>
@@ -79,29 +99,30 @@ class Projects extends Component {
                     <div className="box mar">
                     <div className="all-gears">
                         <div className="gear parent1">
-                                <div class="center"></div>
-                                <div class="tooth"></div>
-                                <div class="tooth"></div>
-                                <div class="tooth"></div>
-                                <div class="tooth"></div>
+                                <div className="center"></div>
+                                <div className="tooth"></div>
+                                <div className="tooth"></div>
+                                <div className="tooth"></div>
+                                <div className="tooth"></div>
                                 
                             </div>
                             <div className="gear parent2">
-                                <div class="center"></div>
-                                <div class="tooth"></div>
-                                <div class="tooth"></div>
-                                <div class="tooth"></div>
-                                <div class="tooth"></div>
+                                <div className="center"></div>
+                                <div className="tooth"></div>
+                                <div className="tooth"></div>
+                                <div className="tooth"></div>
+                                <div className="tooth"></div>
                             </div>
                             <div className="gear2 parent3">
-                                <div class="center2"></div>
-                                <div class="tooth2"></div>
-                                <div class="tooth2"></div>
-                                <div class="tooth2"></div>
-                                <div class="tooth2"></div>
+                                <div className="center2"></div>
+                                <div className="tooth2"></div>
+                                <div className="tooth2"></div>
+                                <div className="tooth2"></div>
+                                <div className="tooth2"></div>
                             </div>
                             </div>
                         </div>
+
                        </div>
                     </div>
                     

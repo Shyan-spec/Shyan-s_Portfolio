@@ -10,12 +10,12 @@ class Footer extends Component {
     render() {
     return (
                 
-                <div class="footer">
+                <div className="footer">
                    <div className="footer-box">
                    
-                   <div className58855="back-to-top-wrapper"> 
-                   <a  href="#top" class="back-to-top-link" aria-label="Scroll to Top">
-                   <img class="arrow" height="auto" width="20px"src={Arrow}/>
+                   <div className="back-to-top-wrapper"> 
+                   <a  href="#top" className="back-to-top-link" aria-label="Scroll to Top">
+                   <img className="arrow" height="auto" width="20px"src={Arrow}/>
                    </a>
                    </div>
 

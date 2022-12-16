@@ -20,7 +20,7 @@ class Welcome extends React.Component {
                 <h1>
                 Hello, my name is <span className="text-color-main">Shyan Walker</span>
                 <br />
-                The Aspiring Fullstack Developer.
+                The Software Engineering Professional
                 </h1>
                 
                 <a rel="noreferrer" style={{text_decoration:'none'}} href="#about">
