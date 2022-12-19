@@ -53,7 +53,7 @@ class Projects extends Component {
                             <div className="desAndbuttonWrap">
                             <span className="description">A Public Forum Simulator. <br/> Login and Post whatever is on your mind for everyone to read!
                                 <br/> A fullStack application that utilizes JavaScript, HTML and CSS Languages for the Frontend, and MySQL for the database.  </span>
-                            <button className="liveDV">Now publishing...</button>
+                            <button className="live"> Publishing...</button>
                             </div>
 
                         </div>

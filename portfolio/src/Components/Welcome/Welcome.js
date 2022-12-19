@@ -16,12 +16,14 @@ class Welcome extends React.Component {
         
         
                 
-            <div className="header animate__animated animate__fadeInLeft space">
+            <div className="header animate__animated animate__fadeInLeft space" id="introduction">
+                
                 <h1>
                 Hello, my name is <span className="text-color-main">Shyan Walker</span>
                 <br />
                 The Software Engineering Professional
                 </h1>
+                
                 
                 <a rel="noreferrer" style={{text_decoration:'none'}} href="#about">
                 <button style={{text_decoration:'none'}} className="button" > Get to Know Me!</button>
