@@ -3,6 +3,7 @@ import './Projects.scss';
 import CalcPic from './CalcPic.png';
 import DailyVoice from './DailyVoice.png'
 import QuoteGen from './QuoteGen.png'
+import Nasa_Project from './NASA_Project.png'
 
 class Projects extends Component {
     render() {
@@ -78,16 +79,40 @@ class Projects extends Component {
 
                         </div>
 
-                    
                     <div className="box1 mar">
                     <img alt="Login DailyVoice" className="DV-img" src={QuoteGen}/>
                         </div>
 
+
+
+
+
                            {/* Project 4 */}
                         
-                           <div className="textbox mar">
+                          <div className="textbox mar">
                             
-                            <h1 className="title">Project 4</h1>
+                            <h1 className="title">NASA Project</h1>
+                            <div className="desAndbuttonWrap">
+                            <span className="description">Schedule a mission launch to the one Kepler Exoplanets! <br/> This fullStack aplication uses a RESTful API fetching data from the Kepler Project by NASA 
+
+                            <br/>This application utilizes JavaScript, HTML, CSS, React Framework for the frontend and Node.js for the backend, as well as a NoSQL database run on MongoDB <br/>
+                            (This unofficial application is not affiliated with the NASA comapny)  </span>
+                            <button className="live">Publishing...</button>
+                            </div>
+
+                        </div>
+
+                    
+                        <div className="box1 mar">
+                    <img alt="Login DailyVoice" className="DV-img" src={Nasa_Project}/>
+                        </div>
+
+
+                        {/* Project 5 */}
+                        
+                        <div className="textbox mar">
+                            
+                            <h1 className="title">Project 5</h1>
                             <div className="desAndbuttonWrap">
                             <span className="description">Project Under Construction.</span>
                             <button className="live">Coming Soon...</button>
@@ -122,6 +147,8 @@ class Projects extends Component {
                             </div>
                             </div>
                         </div>
+
+
 
                        </div>
                     </div>
