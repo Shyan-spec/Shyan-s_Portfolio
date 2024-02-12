@@ -1,332 +1,161 @@
-//Project Page Display
-.pages{
-    
-  position:relative;
-  top:-80px;
-  left:7.5%;
-  right:50%;
-  padding-bottom: 2%;
-  
-  width:85%;
+.pages {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px; /* Max width to prevent overly wide layouts on large screens */
   background: white;
-  box-shadow: 0px 0px 20px 0px;
-  border-radius: 0% 0% 0% 0%;
-
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 2% 5%; /* Use percentage for padding to keep it responsive */
+  box-sizing: border-box;
 }
 
-//PROJECT Word
-#project {
-  position: relative;
-    display:flex;
-    position: relative;
-    font-weight: bold;
-    padding: 5%;
-    top: 10px;
-    margin-top:10%;
-    
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 3rem;
-    font-family: 'Poppins', sans-serif;
-    color:rgb(2, 2, 202);
+.pages img {
+  width: 100%; /* Make all images within .pages responsive */
+  height: auto; /* Maintain aspect ratio */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+}
 
+#project {
+  font-weight: bold;
+  padding-top: 5%;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: calc(1.5rem + 2vw); /* Responsive font size */
+  color: rgb(2, 2, 202);
 }
 
 .display {
-  position: relative;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-justify-content: space-evenly;
-
-top:3%;
-
-
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.mar {
-  margin:3%;
-}
-
-//Text
-
-.textbox {
+.desAndbuttonWrap {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  
-  
-  
-  max-width: 400px;
-  width:50%;
-  
-  box-shadow: 0px 0px 0px 0px;
-  font-family: 'Poppins', sans-serif;
+  align-items: flex-start; /* Align items to the start */
+  gap: 10px; /* Add space between the description and the button */
+  margin-bottom: 5%;
 }
 
-
-
-//Title
-.title{
-    text-align: left;
-    font-size: 1.7rem;
-    font-weight: bold;
-    color:#0202ca;
-}
-//Description
-
-.description{
-  
-  
-  text-align:left;
-  color: black;
-  font-size: 1rem;
-  
+.textbox,
+.box1 {
+  flex: 1 1 45%; /* Allows boxes to grow and shrink, but not smaller than 45% of the container width */
+  margin: 2%;
 }
 
-// See Live Button 
+.title,
+.description,
 .live {
+  text-align: start; /* Center text for better readability on all devices */
+}
+
+.description {
+  font-size: calc(0.6rem + 1vw); /* Responsive font size */
+  text-align: start; /* Align text to the start */
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2%;
+  flex-direction: column; /* Stack the project title and the calculator name */
+  align-items: flex-start; /* Align items to the start for a consistent look */
+  font-size: 1.7rem; /* Adjust based on your design */
+  font-weight: bold;
+  color: #0202ca;
   font-family: 'Poppins', sans-serif;
-    font-size:calc(.40rem + 1vw); 
-    height: 5vh;
-    width: 13vw;
-    background-color: rgb(255, 255, 255);
-    color: #0202ca;
-    border: 2px solid #0202ca; 
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    align-items: center;
 }
 
-.liveDV {
+.titleContainer {
+  width: 100%;
   display: flex;
-  font-family: 'Poppins', sans-serif;
-    font-size:calc(.40rem + 1vw); 
-    width: 15vw;
-    background-color: rgb(255, 255, 255);
-    color: #0202ca;
-    border: 2px solid #0202ca; 
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    margin-top: 2%;
-    align-items: center;
-    height: 6vh;
+  justify-content: space-between; /* Place content on opposite ends */
+  align-items: center; /* Center-align items vertically */
 }
 
-.desAndbuttonWrap{
-  display: flex;
-  flex-direction: column;
-}
-
-//Project Pictures
-
-
-.box {
-    
-    width: 50%;
-    max-width: 800px;
-    padding-bottom: 7%;
-    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
-    
-    background:rgb(2, 2, 202);
-    
-   
-    box-shadow: 0px 0px 5px 0px;
-    
-}
-
-.Calc-img{
-  width: 95%;
-    max-width: 800px;
-    box-shadow: 0px 0px 5px 0px;
-}
-
-.DV-img {
-  width: 95%;
-  max-width: 800px;
-    box-shadow: 0px 0px 5px 0px;
-}
-
-
-.all-gears {
-  position: relative;
-  top:40px;
-  right:25px;
-}
-
-
-.parent1{
-    position: absolute;
-    height: 200px;
-    top:40px;
-    right:60px;
-    
-}
-
-.parent2{
-    position: absolute;
-    height: 200px;
-    top:-30px;
-    right: -120px;
-}
-
-.parent3{
-    position: absolute;
-    height: 200px;
-    top:-25px;
-    right:-10px;
-}
-
-.gear {
-  position: relative;
-  width: 100px;
-  height: 100px;
+/* Optional: If you want the 'Project 1:' and '2018' to align with the rest of your text */
+.title > br {
+  content: "";
   margin: auto;
-  background: #fff;
-  border-radius: 50%;
-  animation-name: spin2;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
 }
 
-.gear .center{
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  z-index: 10;
-  width: 50px;
-  height: 50px;
-  background:rgb(2, 2, 202);
-  border-radius: 50%;
-    border-radius: 100%;
-  }
-
-  .gear2{
-    position: relative;
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    background: #fff;
-    border-radius: 50%;
-    animation-name: spin;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-  
-  .gear2 .center2{
-    position: absolute;
-    top: 38px;
-    left: 38px;
-    z-index: 10;
-    width:75px;
-    height: 75px;
-    background:rgb(2, 2, 202);
-    border-radius: 50%;
-  }
-  
-  .tooth2{
-    position: absolute;
-    top: -14px;
-    left: 58px;
-    z-index: 1;
-    width: 35px;
-    height: 180px;
-    background:#fff;
-  }
-  
-  .tooth2:nth-child(2){
-    transform: rotate(45deg);
-  }
-  
-  .tooth2:nth-child(3){
-    transform: rotate(90deg);
-  }
-  
-  .tooth2:nth-child(4){
-    transform: rotate(135deg);
-  }
-
-
-
-  .tooth{
-  position: absolute;
-  top: -13px;
-  left: 38px;
-  z-index: 1;
-  width: 25px;
-  height: 125px;
-  background:#fff;
-  
-  }
-
-  .tooth:nth-child(2){
-  transform: rotate(45deg);
+.button-link {
+  font-family: "Poppins", sans-serif;
+  font-size: calc(0.875rem + 1vw); /* Make font size responsive */
+  height: auto; /* Allow height to adjust based on content */
+  padding: 10px 20px; /* Use padding instead of fixed height for better flexibility */
+  width: auto; /* Allow width to adjust based on content */
+  max-width: 250px; /* Maximum width */
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2); /* Slightly more subtle shadow */
+  cursor: pointer;
+  text-align: center; /* Ensure text in the button is centered */
+  display: inline-block; /* Treat button like an inline block for auto width */
+  text-decoration: none; /* Remove underline from links */
 }
 
-.tooth:nth-child(3){
-  transform: rotate(90deg);
+.img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-.tooth:nth-child(4){
-  transform: rotate(135deg);
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .textbox,
+  .box1 {
+    flex-basis: 100%; /* Full width for smaller screens */
+  }
+
+  .title {
+    font-size: calc(1.2rem + 2vw); /* Adjust font size for smaller screens */
+  }
+
+  .button-link {
+    font-size: calc(
+      0.8rem + 1vw
+    ); /* Slightly smaller font size on medium screens */
+    padding: 8px 15px; /* Adjust padding */
+  }
+
+  .description {
+    font-size: calc(0.6rem + 1vw); /* Adjust text size for medium screens */
+  }
 }
 
-@keyframes spin {
-    from {transform: rotate(0deg); }
-    to {transform: rotate(360deg);}
+@media (max-width: 480px) {
+  .pages {
+    width: 95%;
+    margin-top: 20px; /* Adjust top margin */
   }
 
-  @keyframes spin2 {
-    from {transform: rotate(360deg); }
-    to {transform: rotate(0deg);}
+  .textbox,
+  .box1 {
+    margin: 1% 0; /* Reduce margin for very small screens */
   }
 
-  @media (max-width:500px) {
-    .box{
-      width: 300px;
-      height: 200px;
-    }
-
-    .parent2{
-      display: none;
-    }
-
-    .parent3{
-      position: relative;
-      top: 0px;
-      left:8%;
-    }
+  .description,
+  .live {
+    font-size: calc(
+      0.8rem + 1vw
+    ); /* Further adjust font size for very small screens */
+    text-align: center;
   }
 
-  @media (max-width: 800px){
-    .parent1{
-      display: none;
-
-    }
+  .desAndbuttonWrap {
+    align-items: center; /* Center-align items on smaller screens */
   }
 
-  @media (max-width: 535px){
-    
-    .desAndbuttonWrap {
-      display: flex;
-      align-items:center ;
-      
-    }
-
+  .button-link,
+  .description {
+    font-size: calc(
+      0.75rem + 1vw
+    ); /* Further reduce font size on small screens */
   }
-
-  @media screen and (max-width: 600px) {
-    .pages {
-      margin-top: 90px;
-    }
 }
-  
-  

@@ -1,233 +1,98 @@
-
-
-#square {
+.body {
   display: flex;
   justify-content: center;
-  justify-content:flex-end;
-  margin-top: auto;
-  position: absolute;
-  width: 17vw;
-  height:60vh;
-  border-radius: 200px 200px 0px 0px;
-  background: linear-gradient(to bottom right, rgb(2, 2, 202) 70%, white 100%) fixed;
-  -webkit-box-shadow: 0px 0px 15px 0px black;
-  -moz-box-shadow: 0px 0px 15px 0px black;
-  -ms-box-shadow: 0px 0px 15px 0px black;
-  -o-box-shadow: 0px 0px 15px 0px black;
-  box-shadow: 0px 0px 15px 0px black;
-  
-
+  align-items: center;
+  animation: slideInUp 2.2s ease forwards;
 }
 
-.body {
-  display: inline-flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 0px;
-   
-
-
-    
-   
-    
-    
+.square-body {
+  display: flex;
+    justify-content: center;
+    position: relative;
+    width: 22vw;
+    height: 60vh;
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(to bottom right, #0202ca 70%, #ffffff 100%);
+    box-shadow: 0 0 15px 0 #000000;
 }
-
 
 .eyes {
-        position: fixed;
-        height: 200px;
-        width: 175px;
-        left: -2%;
-        top: -200%;
-}
-
-
-#circle1{
-    float: left;
-    width: 50px;
-    height: 50px;
-    background:white;
-    border-radius: 50%
-  }
-
-#circle2{
-    float: right;
-    width: 50px;
-    height: 50px;
-    background:white;
-    border-radius: 50%
-  }
-  
-  .arms {
-    position:fixed;
-    height:100px;
-    width:410px;
-    justify-content: space-evenly;
-    bottom:0px;
-    left: -125px
-  }
-
-
-  #arm1 {
-    float: left;
-    width: 50px;
-    height: 300px;
-    border-radius: 200px;
-    background-color:rgb(2, 2, 202);
-    -webkit-box-shadow: 0px 0px 15px 0px black;
-    -moz-box-shadow: 0px 0px 15px 0px black;
-    -ms-box-shadow: 0px 0px 15px 0px black;
-    -o-box-shadow: 0px 0px 15px 0px black;
-    box-shadow: 0px 0px 15px 0px black;
-    
-  }
-
-  #arm2 {
-    float:right;
-    width: 50px;
-    height: 200px;
-    border-radius: 200px;
-    background-color:rgb(2, 2, 202);
-    -webkit-box-shadow: 0px 0px 15px 0px black;
-    -moz-box-shadow: 0px 0px 15px 0px black;
-    -ms-box-shadow: 0px 0px 15px 0px black;
-    -o-box-shadow: 0px 0px 15px 0px black;
-    box-shadow: 0px 0px 15px 0px black;
-    
-  }
-
-  #arm23{
-    position:absolute;
-    float:right;
-    left:9px;
-    width: 50px;
-    height: 200px;
-    border-radius: 200px;
-    background-color:rgb(2, 2, 202);
-  }
-
-  #elbow {
-    float:right;
-    width: 50px;
-    height: 175px;
-    border-radius: 200px;
-    background-color:rgb(2, 2, 202);
-    -webkit-box-shadow: 0px 0px 15px 0px black;
-    -moz-box-shadow: 0px 0px 15px 0px black;
-    -ms-box-shadow: 0px 0px 15px 0px black;
-    -o-box-shadow: 0px 0px 15px 0px black;
-    box-shadow: 0px 0px 15px 0px black;
-  }
-
-  #armu {
-    
-    position: absolute;
-    top: -99px;
-    left: 314px;
-    width: 60px;
-    height: 13px;
-    border-radius: 2px;
-    transform:rotate(150deg);
-    
-    transform-origin: top right;
-    animation: armu 1.8s infinite;
-    
-  }
-  
-  
-  @keyframes armu {
-     0% {transform:rotate(150deg); }
-    50% {transform:rotate(210deg); left:377px; top:-86px}
-  }
-
-  #arml {
+  display: flex;
+  justify-content: space-between;
   position: absolute;
-  top: 45px;
-  left: 300px;
-  width: 60px;
-  height: 13px;
-  border-radius: 2px;
-  transform:rotate(180deg);
-  
-  transform-origin: top right;
-  animation: arml 1.8s infinite;
-  
+  top: 20%;
+  width: 65%;
 }
 
-
-@keyframes arml {
-  0% {transform:rotate(180deg);}
-  50% {transform:rotate(210deg);}
-  
+#circle1,
+#circle2 {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
-
-
-
-
 
 .arms {
-    position:fixed;
-    height:100px;
-    width:410px;
-    justify-content: space-evenly;
-    
-}
-
-.hat{
   display: flex;
-  position: relative;
- flex-direction: column;
- align-items: center;
- justify-content: flex-start;
- bottom:285px;
- 
+  justify-content: space-between;
+  position: absolute;
+  bottom: -20vh; // Adjusted to position arms correctly relative to the body
+  width: 100%;
 }
 
-#hattop{
-    position: relative;
-    width: calc(115% + 1vw);
-    height: calc(135% + 1vh);
-    border-radius: 5px 5px 0px 0px;
-    background-color: black;
-    -webkit-box-shadow: 0px 0px 15px 0px black;
-    -moz-box-shadow: 0px 0px 15px 0px black;
-    -ms-box-shadow: 0px 0px 15px 0px black;
-    -o-box-shadow: 0px 0px 15px 0px black;
-    box-shadow: 0px 0px 15px 0px black;
-    
+#arm1,
+#arm2,
+#elbow {
+  width: 50px;
+  height: 300px;
+  background-color: #0202ca;
+  box-shadow: 0 0 15px 0 #000000;
+  border-radius: 200px;
 }
 
-
-#hatbottom{
-    
+.arm-right {
   position: relative;
-  
+  left: 20%; // Adjust based on visual preference
+  animation: wave 1.8s infinite;
+}
+
+.arm-upper {
+  transform: rotate(150deg);
+  animation: moveElbow 1.8s infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(30deg); }
+}
+
+@keyframes moveElbow {
+  0% { transform: rotate(150deg); }
+  50% { transform: rotate(210deg); }
+}
+
+.hat {
+  position: absolute;
+    top: -7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hattop,
+#hatbottom {
+  background-color: #000000;
+  box-shadow: 0 0 15px 0 #000000;
+}
+
+#hattop {
+    width: 86%;
+    height: 4vh;
+    border-radius: 10px 10px 0 0;
+}
+
+#hatbottom {
   width: 165px;
   height: 20px;
   border-radius: 10px 10px 5px 5px;
-  background-color: black;
-  -webkit-box-shadow: 0px 0px 15px 0px black;
-    -moz-box-shadow: 0px 0px 15px 0px black;
-    -ms-box-shadow: 0px 0px 15px 0px black;
-    -o-box-shadow: 0px 0px 15px 0px black;
-    box-shadow: 0px 0px 15px 0px black;
-    
-}
-
-
-.animate__animated.animate__slideInUp {
-  --animate-duration: 2.2s;
-}
-
-/* This changes all the animations globally */
-:root {
-  --animate-duration: 800ms;
-  --animate-delay: 0.9s;
-}
-
-@media (min-height:500px) {
-  .body{
-    
-  }
 }
