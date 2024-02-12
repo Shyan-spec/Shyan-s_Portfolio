@@ -14,7 +14,7 @@ $scrollLength: 100vh;
     position: absolute;
     margin:  auto 0;
     width:100vw;
-    height:35vh;
+    height:auto;
     background-color:#000000; 
     
     
@@ -49,6 +49,7 @@ position: relative;
 cursor: pointer;
 top:30px;
 background-color: #000000;
+margin-left: 45.5%;
 
 }
 
@@ -69,7 +70,7 @@ background-color: #000000;
 
 hr{
     position: relative;
-    top: 70%;
+    top: 55%;
     border: 0;
     right:10%;
     width: 120%;
@@ -77,10 +78,9 @@ hr{
 }
 
 .footer_text{
-    position: relative;
-    top:18%;
-    right:-39.9%;
-    font-size: .8rem;
-    color:grey;
-    width: 21%;
+    font-size: 0.8rem;
+    text-align: center; /* Ensures text is centered if it breaks into multiple lines */
+    max-width: 90%;
+    margin-left: 6%;
+    color: white;
 }
