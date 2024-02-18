@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Shyans_Portfolio/static/css/main.ede9a460.css",
+    "main.js": "/Shyans_Portfolio/static/js/main.ecc9425f.js",
+    "static/js/787.86e70ff7.chunk.js": "/Shyans_Portfolio/static/js/787.86e70ff7.chunk.js",
+    "static/media/NASA_Project.png": "/Shyans_Portfolio/static/media/NASA_Project.6530f65a5ae539fbbfa2.png",
+    "static/media/QuoteGen.png": "/Shyans_Portfolio/static/media/QuoteGen.fdbad92dc07b3f89a238.png",
+    "static/media/DailyVoice.png": "/Shyans_Portfolio/static/media/DailyVoice.e5bb9c5891c17d5df8e8.png",
+    "static/media/CalcPic.png": "/Shyans_Portfolio/static/media/CalcPic.14795a8286ddb4b90d19.png",
+    "static/media/S.Walker Resume 2022.pdf": "/Shyans_Portfolio/static/media/S.Walker Resume 2022.fbabf433ff262ab8d81a.pdf",
+    "static/media/ShyanWalker.jpeg": "/Shyans_Portfolio/static/media/ShyanWalker.c8b5a1d4c139c492b2a7.jpeg",
+    "static/media/Github.svg": "/Shyans_Portfolio/static/media/Github.4965b2f04e043324c76f404adc8244f5.svg",
+    "static/media/Twitter.svg": "/Shyans_Portfolio/static/media/Twitter.160dac1b2777cdffdecd3c754dd058e2.svg",
+    "static/media/link.svg": "/Shyans_Portfolio/static/media/link.71bfc144924d7750cc6dd2f7aa323747.svg",
+    "index.html": "/Shyans_Portfolio/index.html",
+    "main.ede9a460.css.map": "/Shyans_Portfolio/static/css/main.ede9a460.css.map",
+    "main.ecc9425f.js.map": "/Shyans_Portfolio/static/js/main.ecc9425f.js.map",
+    "787.86e70ff7.chunk.js.map": "/Shyans_Portfolio/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ede9a460.css",
+    "static/js/main.ecc9425f.js"
+  ]
+}
