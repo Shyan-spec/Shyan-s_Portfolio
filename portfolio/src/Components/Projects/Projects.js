@@ -34,7 +34,7 @@ class Projects extends Component {
                 moving targets and score the highest. Every duck downed adds to
                 your score, pushing you to beat your best in a test of skill and
                 reflexes. Perfect for gamers seeking to relive the classic
-                experience."
+                experience.
                 <div className="tech-stack">
                   <img
                     src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
