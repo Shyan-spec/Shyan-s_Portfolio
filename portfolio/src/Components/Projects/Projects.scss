@@ -136,6 +136,13 @@
     margin-top: 20px; /* Adjust top margin */
   }
 
+  .tech-stack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
   .textbox,
   .box1 {
     margin: 1% 0; /* Reduce margin for very small screens */
@@ -159,4 +166,19 @@
       0.75rem + 1vw
     ); /* Further reduce font size on small screens */
   }
+}
+
+.button-class {
+  display: flex;
+  gap: 10px;
+}
+
+.tech-stack {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.tech-stack img{
+  width: 25%;
 }

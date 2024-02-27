@@ -1,7 +1,7 @@
 import React ,{Component} from 'react';
 import ShyanPhoto from './ShyanWalker.jpeg'
 import './About.scss';
-import Resume from '/Users/shyanw/Documents/Shyan-Portfolio/portfolio/src/Components/About/S.Walker Resume 2022.pdf';
+import Resume from './Shyan Walker Resume ( JAN 2024 ) Official.pdf';
 
 class About extends Component {
     render() {
@@ -21,14 +21,7 @@ class About extends Component {
                     <div className="info-res wrap">
                     
                     <span className="paragraph">
-                    Greetings,
-                    I begin my coding journey in 2016 as a CS student pursing my degree in Computer Science. 
-                    Since obtaining my degree, I currently reside in New York City continuously expanding my knowledge and personal development in software engineering.
-                    Some of my specialties include but not limited to Full Stack development and cloud-based platforms. 
-                    I’m skilled in Web development tools such as HTML5, CSS3, and JavaScript utilizing Angular and React.js frameworks. 
-                    As well as, experience in cross-functional agile methodologies and project management practices. 
-                    
-                   
+                    Hello! My name is Shyan Walker, and I am deeply passionate about the world of software development. With a strong penchant for problem-solving, I am dedicated to making a meaningful impact through technology. My journey has been characterized by a relentless pursuit of knowledge and a diverse portfolio of projects that have both challenged my thinking and sharpened my skills across the full-stack development spectrum, including JavaScript, React, Node.js, and many more. I flourish in collaborative environments, placing high value on both sharing ideas and being an avid listener. Driven by a desire to innovate and improve lives, I am eager to develop my own solutions while making significant contributions to projects that matter.
                     
                     </span>
                     
